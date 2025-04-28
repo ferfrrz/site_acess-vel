@@ -10,6 +10,6 @@ document.addEventListener('DOMContentLoaded', function(){
 
     diminuiFonteBoatao.addEventListener('click' , funcition(){
             tamanhoAtualFonte -= 0.1;
-            document.body.style.fontSize = '${tamanhoAtualFonte}rem';
+            document.body.style.fontSize = '${tamanhoAtualFonte}rem' ;
     });
 });
